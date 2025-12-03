@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<head>
+  <title>Green Leaf Bistro</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f0fff0;
+      margin: 0;
+      padding: 0;
+    }
+    header, footer {
+      background-color: #228B22;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    h2 {
+      color: #228B22;
+      margin-top: 30px;
+      text-align: center;
+    }
+    section {
+      max-width: 900px;
+      margin: auto;
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      margin-bottom: 30px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 12px;
+      text-align: left;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+    form input, form select, form button {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      box-sizing: border-box;
+    }
+    form button {
+      background-color: #228B22;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    form button:hover {
+      background-color: #2e8b57;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Green Leaf Bistro</h1>
+  <p>Pure Vegetarian Delights</p>
+</header>
+
+<h2>Veg Main Course</h2>
+<section>
+  <table>
+    <tr><th>Dish</th><th>Description</th><th>Price</th></tr>
+    <tr><td>Paneer Butter Masala</td><td>Rich tomato gravy with paneer</td><td>₹240</td></tr>
+    <tr><td>Veg Biryani</td><td>Spiced rice with vegetables</td><td>₹200</td></tr>
+    <tr><td>Dal Makhani</td><td>Creamy black lentils</td><td>₹180</td></tr>
+    <tr><td>Chole Bhature</td><td>Spicy chickpeas with fried bread</td><td>₹150</td></tr>
+    <tr><td>Mix Veg Curry</td><td>Seasonal veggies in gravy</td><td>₹190</td></tr>
+    <tr><td>Palak Paneer</td><td>Spinach puree with paneer</td><td>₹210</td></tr>
+    <tr><td>Aloo Gobi</td><td>Potato and cauliflower stir-fry</td><td>₹160</td></tr>
+    <tr><td>Veg Kofta</td><td>Veg dumplings in curry</td><td>₹220</td></tr>
+    <tr><td>Bhindi Masala</td><td>Spiced okra sauté</td><td>₹170</td></tr>
+    <tr><td>Rajma Masala</td><td>Kidney beans in tomato gravy</td><td>₹180</td></tr>
+    <tr><td>Stuffed Capsicum</td><td>Bell peppers with spiced filling</td><td>₹200</td></tr>
+    <tr><td>Veg Pulao</td><td>Aromatic rice with veggies</td><td>₹160</td></tr>
+    <tr><td>Kadai Paneer</td><td>Paneer with bell peppers</td><td>₹230</td></tr>
+    <tr><td>Malai Kofta</td><td>Paneer balls in creamy gravy</td><td>₹250</td></tr>
+    <tr><td>Gulab Jamun</td><td>Sweet syrupy dessert</td><td>₹80</td></tr>
+  </table>
+</section>
+
+<h2>Breads</h2>
+<section>
+  <table>
+    <tr><th>Bread</th><th>Description</th><th>Price</th></tr>
+    <tr><td>Butter Naan</td><td>Soft leavened bread with butter</td><td>₹40</td></tr>
+    <tr><td>Tandoori Roti</td><td>Whole wheat roasted bread</td><td>₹30</td></tr>
+    <tr><td>Garlic Naan</td><td>Naan topped with garlic</td><td>₹50</td></tr>
+    <tr><td>Missi Roti</td><td>Gram flour spiced roti</td><td>₹35</td></tr>
+  </table>
+</section>
+
+<h2>Chinese</h2>
+<section>
+  <table>
+    <tr><th>Dish</th><th>Description</th><th>Price</th></tr>
+    <tr><td>Veg Hakka Noodles</td><td>Stir-fried noodles with veggies</td><td>₹180</td></tr>
+    <tr><td>Veg Manchurian</td><td>Fried veg balls in spicy sauce</td><td>₹190</td></tr>
+    <tr><td>Chilli Paneer</td><td>Paneer tossed in Indo-Chinese sauce</td><td>₹200</td></tr>
+    <tr><td>Spring Rolls</td><td>Veg stuffed crispy rolls</td><td>₹160</td></tr>
+  </table>
+</section>
+
+<h2>Drinks</h2>
+<section>
+  <table>
+    <tr><th>Drink</th><th>Description</th><th>Price</th></tr>
+    <tr><td>Masala Chaas</td><td>Spiced buttermilk</td><td>₹40</td></tr>
+    <tr><td>Sweet Lassi</td><td>Sweetened yogurt drink</td><td>₹50</td></tr>
+    <tr><td>Fresh Lime Soda</td><td>Lemon soda (sweet/salty)</td><td>₹60</td></tr>
+    <tr><td>Cold Coffee</td><td>Chilled coffee with cream</td><td>₹80</td></tr>
+  </table>
+</section>
+
+<h2>Reserve a Table</h2>
+<section>
+  <form>
+    <label>Name:</label>
+    <input type="text" required>
+
+    <label>Date:</label>
+    <input type="date" required>
+
+    <label>Time:</label>
+    <input type="time" required>
+
+    <label>Guests:</label>
+    <select>
+      <option>1</option><option>2</option><option>3</option><option>4</option><option>5+</option>
+    </select>
+
+    <button type="submit">Book Table</button>
+  </form>
+</section>
+
+<footer>
+  <p>Thank you for visiting Green Leaf Bistro!</p>
+</footer>
+
+</body>
+</html>
